@@ -1,0 +1,137 @@
+﻿{
+  "name": "Flávia Florentino de Almeida Corrêa",
+  "title": "Desenvolvedora Fullstack / Backend (.NET | Angular)",
+  "location": "Remoto",
+  "contact": {
+    "email": "eng.flavia@outlook.com",
+    "phone": "+55 (15) 99765-0375",
+    "linkedin": "www.linkedin.com/in/flavia-florentino-de-almeida-correa-b8181855"
+  },
+  "objective": "Atuar como Desenvolvedora Backend ou Fullstack (Pleno/Sênior) em ambiente remoto, contribuindo com soluções robustas, seguras e escaláveis.",
+  
+  "summary": "Desenvolvedora de software com aproximadamente 6 anos de experiência, atuando em aplicações web com foco em backend e fullstack utilizando .NET e Angular. Experiência com liderança técnica no dia a dia, deploys em QA e produção, suporte à equipe de QA, gestão de ambientes em Azure e atuação direta em banco de dados. Participa de decisões estratégicas, realiza refatorações com foco em performance e segurança, além de mentorar desenvolvedores juniores. Atualmente em evolução técnica com foco em arquitetura moderna e vibe coding.",
+  
+  "education": [
+    {
+      "degree": "Tecnóloga em Análise e Desenvolvimento de Sistemas",
+      "institution": "FACENS – Faculdade de Engenharia de Sorocaba",
+      "period": "08/2019 - 12/2021"
+    },
+    {
+      "degree": "Mestrado em Engenharia Civil e Ambiental",
+      "institution": "UNESP – Universidade Estadual Paulista",
+      "period": "08/2014 - 10/2017"
+    },
+    {
+      "degree": "Bacharelado em Engenharia Civil",
+      "institution": "FACENS – Faculdade de Engenharia de Sorocaba",
+      "period": "01/2009 - 12/2013"
+    }
+  ],
+
+  "languages": [
+    {
+      "language": "Português",
+      "level": "Nativo"
+    },
+    {
+      "language": "Inglês",
+      "level": "Fluente"
+    }
+  ],
+
+  "experience": [
+    {
+      "role": "Desenvolvedora Fullstack (.NET | Angular)",
+      "company": "VM2",
+      "period": "12/2024 - Atual",
+      "note": "Evolução de Pleno para atuação com responsabilidades de Sênior",
+      "responsibilities": [
+        "Desenvolvimento e manutenção de aplicações com C#, ASP.NET MVC, Web Forms e Angular",
+        "Criação e evolução de interfaces utilizando HTML, CSS e JavaScript",
+        "Atuação contínua na manutenção evolutiva e correção de bugs em sistemas em produção",
+        "Integração entre camada de aplicação e banco de dados SQL Server",
+        "Referência técnica na manutenção de aplicação Angular",
+        "Responsável pelo deploy em ambiente de QA e suporte à equipe de QA",
+        "Responsável por deploy, manutenção e sustentação de produção",
+        "Monitoramento de aplicações e resolução de incidentes",
+        "Atuação direta em banco de dados em produção",
+        "Gestão e manutenção de recursos no Azure",
+        "Participação em decisões técnicas e estratégicas",
+        "Treinamento e acompanhamento de desenvolvedores juniores",
+        "Liderança do projeto de documentação de sistema crítico, incluindo fluxogramas",
+        "Refatorações com foco em performance, manutenibilidade e segurança",
+        "Implementação de melhorias para mitigação de vulnerabilidades e tentativas de invasão"
+      ]
+    },
+    {
+      "role": "Desenvolvedora Júnior",
+      "company": "VM2",
+      "period": "06/2021 - 12/2024",
+      "responsibilities": [
+        "Desenvolvimento e manutenção de aplicações C# .NET MVC",
+        "Integração com banco de dados SQL Server",
+        "Melhorias de performance em sistemas existentes",
+        "Desenvolvimento de interfaces com JavaScript, HTML5 e CSS",
+        "Correção de bugs e sustentação de sistemas"
+      ]
+    },
+    {
+      "role": "Estagiária em Desenvolvimento",
+      "company": "VM2",
+      "period": "08/2020 - 06/2021",
+      "responsibilities": [
+        "Desenvolvimento de aplicações com C# .NET MVC e Web Forms",
+        "Integração com banco de dados SQL Server",
+        "Desenvolvimento de componentes front-end com JavaScript, HTML5 e CSS"
+      ]
+    }
+  ],
+
+  "skills": {
+    "backend": [
+      "C#",
+      ".NET Framework",
+      "ASP.NET MVC",
+      "Web Forms",
+      "APIs REST"
+    ],
+    "frontend": [
+      "Angular",
+      "AngularJS",
+      "TypeScript",
+      "HTML5",
+      "CSS",
+      "JavaScript",
+      "Bootstrap"
+    ],
+    "database": [
+      "SQL Server"
+    ],
+    "cloud_devops": [
+      "Azure",
+      "IIS",
+      "Git",
+      "Deploy em QA e Produção"
+    ]
+  },
+
+  "highlights": [
+    "Atuação com responsabilidades equivalentes a nível sênior",
+    "Experiência com deploy e sustentação de ambientes produtivos",
+    "Gestão de recursos e aplicações em Azure",
+    "Liderança na documentação de sistema crítico com fluxogramas",
+    "Refatorações com foco em performance, segurança e estabilidade",
+    "Mentoria de desenvolvedores juniores",
+    "Participação ativa em decisões técnicas estratégicas",
+    "Experiência prática com mitigação de vulnerabilidades"
+  ],
+
+  "interests": [
+    "Backend",
+    "Fullstack",
+    "Trabalho remoto",
+    "Arquitetura de software",
+    "Vibe coding (uso de IA no desenvolvimento)"
+  ]
+}
