@@ -4,6 +4,14 @@ Landing page/portfolio profissional construída com React a partir dos dados do 
 
 O projeto foi estruturado para que a interface seja alimentada pelo JSON, evitando conteúdo espalhado pelos componentes e facilitando manutenção futura.
 
+## Descrição do projeto
+
+Portfólio profissional Fullstack/Backend com .NET, Angular, Azure e vibecoding, criado para destacar experiência técnica, liderança e evolução na carreira dev.
+
+Esta landing page foi desenvolvida para apresentar minha trajetória como Desenvolvedora Fullstack/Backend, reunindo experiência prática com desenvolvimento web, sustentação de aplicações em produção, deploys em QA e produção, SQL Server, Azure, refatorações com foco em performance, segurança e manutenibilidade, além de atuação com mentoria técnica.
+
+O projeto também reflete meu interesse em práticas modernas de desenvolvimento, incluindo vibecoding e uso de IA como apoio para acelerar a criação, revisão e evolução de soluções com qualidade.
+
 ## Objetivo
 
 Criar uma landing page moderna, responsiva e com aparência profissional para apresentar o perfil de uma desenvolvedora fullstack/backend com foco em:
@@ -291,4 +299,3 @@ Eles não fazem parte da arquitetura principal da UI.
 - expandir SEO com favicon, Open Graph image e sitemap
 - integrar formulário de contato
 - preparar modo multilíngue se necessário
-
