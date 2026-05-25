@@ -41,7 +41,6 @@ export function EducationSection({ education, copy }: EducationSectionProps) {
                   education={item}
                   icon={Icon}
                   label={copy.supportingLabel}
-                  accent={index % 2 === 0 ? 'light' : 'sand'}
                 />
               );
             })}

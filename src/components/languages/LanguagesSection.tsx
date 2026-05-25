@@ -28,7 +28,7 @@ export function LanguagesSection({ languages, copy }: LanguagesSectionProps) {
             item={item}
             icon={index === 0 ? Languages : MessageSquareQuote}
             fluencyLabel={copy.fluencyLabel}
-            variant={index % 2 === 0 ? 'dark' : 'light'}
+            variant="light"
           />
         ))}
       </div>

@@ -20,10 +20,12 @@ export function HeroSection({ name, title, location, objective, copy }: HeroSect
           transition={{ duration: 0.8, ease: 'easeOut' }}
           className="space-y-8"
         >
-          <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm text-mist backdrop-blur">
-            <span className="h-2 w-2 rounded-full bg-coral" />
-            {copy.availability}
-          </div>
+          {copy.availability ? (
+            <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm text-mist backdrop-blur">
+              <span className="h-2 w-2 rounded-full bg-coral" />
+              {copy.availability}
+            </div>
+          ) : null}
 
           <div className="space-y-5">
             <p className="font-display text-sm uppercase tracking-[0.35em] text-cyan/80">

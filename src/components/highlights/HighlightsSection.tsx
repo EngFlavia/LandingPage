@@ -2,8 +2,6 @@
 import { SectionContainer } from '../layout/SectionContainer';
 import type { HighlightsCopy } from '../../types/portfolio';
 import { IconHighlightCard } from './cards/IconHighlightCard';
-import { NumberHighlightCard } from './cards/NumberHighlightCard';
-import { RibbonHighlightCard } from './cards/RibbonHighlightCard';
 
 interface HighlightsSectionProps {
   highlights: string[];
@@ -25,15 +23,7 @@ export function HighlightsSection({ highlights, copy }: HighlightsSectionProps) 
         {highlights.map((highlight, index) => {
           const Icon = iconCycle[index % iconCycle.length];
 
-          if (index % 3 === 0) {
-            return <IconHighlightCard key={highlight} text={highlight} icon={Icon} />;
-          }
-
-          if (index % 3 === 1) {
-            return <NumberHighlightCard key={highlight} text={highlight} index={index + 1} />;
-          }
-
-          return <RibbonHighlightCard key={highlight} text={highlight} icon={Icon} label={copy.ribbonLabel} />;
+          return <IconHighlightCard key={highlight} text={highlight} icon={Icon} />;
         })}
       </div>
     </SectionContainer>

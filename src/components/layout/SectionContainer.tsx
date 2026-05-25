@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 interface SectionContainerProps extends PropsWithChildren {
   id?: string;
   eyebrow?: string;
-  title: string;
+  title?: string;
   description?: string;
   aside?: ReactNode;
   className?: string;
@@ -33,9 +33,11 @@ export function SectionContainer({
           {eyebrow ? (
             <p className="text-sm font-medium uppercase tracking-[0.3em] text-cyan">{eyebrow}</p>
           ) : null}
-          <h2 className="font-display text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
-            {title}
-          </h2>
+          {title ? (
+            <h2 className="font-display text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
+              {title}
+            </h2>
+          ) : null}
           {description ? (
             <p className="max-w-2xl text-base leading-7 text-slate-700 sm:text-lg">{description}</p>
           ) : null}

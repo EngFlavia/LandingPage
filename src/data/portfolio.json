@@ -41,9 +41,11 @@
   ],
 
   "experience": [
+    {
+      "role": "Desenvolvedora Pleno / Sênior",
       "company": "VM2",
       "period": "12/2024 - Atual",
-      "note": "Evolução de Pleno para atuação com responsabilidades de Sênior",
+      "note": "Evolução de Junior, atualmente atuando com responsabilidades de Sênior",
       "responsibilities": [
         "Desenvolvimento e manutenção de aplicações com C#, ASP.NET MVC, Web Forms e Angular",
         "Criação e evolução de interfaces utilizando HTML, CSS e JavaScript",
@@ -57,21 +59,9 @@
         "Gestão e manutenção de recursos no Azure",
         "Participação em decisões técnicas e estratégicas",
         "Treinamento e acompanhamento de desenvolvedores juniores",
-        "Liderança do projeto de documentação de sistema crítico, incluindo fluxogramas",
+        "Liderança de projeto de documentação de sistema crítico, incluindo fluxogramas",
         "Refatorações com foco em performance, manutenibilidade e segurança",
         "Implementação de melhorias para mitigação de vulnerabilidades e tentativas de invasão"
-      ]
-    },
-    {
-      "role": "Desenvolvedora Júnior",
-      "company": "VM2",
-      "period": "06/2021 - 12/2024",
-      "responsibilities": [
-        "Desenvolvimento e manutenção de aplicações C# .NET MVC",
-        "Integração com banco de dados SQL Server",
-        "Melhorias de performance em sistemas existentes",
-        "Desenvolvimento de interfaces com JavaScript, HTML5 e CSS",
-        "Correção de bugs e sustentação de sistemas"
       ]
     },
     {
@@ -113,6 +103,39 @@
       "Deploy em QA e Produção"
     ]
   },
+
+  "projects": [
+    {
+      "name": "LandingPage",
+      "url": "https://github.com/EngFlavia/LandingPage",
+      "description": "Landing page profissional do portfólio desenvolvida com Vibe Coding, construída com React, Vite, Tailwind CSS e conteúdo estruturado em JSON.",
+      "tags": ["React", "Vite", "Tailwind", "IA"]
+    },
+    {
+      "name": "Aplicativo de Receitas",
+      "url": "https://github.com/EngFlavia/receitas-inteligentes",
+      "description": "Aplicação desenvolvida com Vibe Coding, voltada a busca e salvamento de receitas, explorando organização de informações culinárias e experiência de uso orientada por dados.",
+      "tags": ["Aplicação", "Receitas", "IA"]
+    },
+    {
+      "name": "Aplicativo de Bingo",
+      "url": "https://github.com/EngFlavia/Bingo",
+      "description": "Projeto desenvolvido com Vibe Coding, de jogo de bingo com foco em lógica de sorteio, interação com o usuário, interação de múltiplos equipamentos e organização de regras de partida.",
+      "tags": ["Jogo", "Lógica", "IA"]
+    },
+    {
+      "name": "JogoTecnoFacens",
+      "url": "https://github.com/EngFlavia/JogoTecnoFacens",
+      "description": "Projeto acadêmico de jogo desenvolvido no contexto de apresentação de projeto da FACENS, reunindo prática de programação, interface e regras de gameplay.",
+      "tags": ["Acadêmico", "Jogo", "FACENS"]
+    },
+    {
+      "name": "ProjetoCalculoDeMateriais",
+      "url": "https://github.com/EngFlavia/ProjetoCalculoDeMateriais",
+      "description": "Projeto para cálculo de materiais, conectando a base de engenharia civil com automação e desenvolvimento de software.",
+      "tags": ["Cálculo", "Engenharia", "Software"]
+    }
+  ],
 
   "highlights": [
     "Atuação com responsabilidades equivalentes a nível sênior",

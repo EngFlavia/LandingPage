@@ -17,11 +17,11 @@ export function ContactSection({ copy, resumeHref, contact }: ContactSectionProp
       title={copy.title}
       description={copy.description}
       className="pb-24 text-ink"
-      aside={
+      aside={copy.availabilityBadge ? (
         <span className="rounded-full border border-coral/20 bg-coral/10 px-4 py-2 text-sm text-coral">
           {copy.availabilityBadge}
         </span>
-      }
+      ) : null}
     >
       <motion.div
         whileHover={{ y: -4 }}
@@ -29,7 +29,9 @@ export function ContactSection({ copy, resumeHref, contact }: ContactSectionProp
       >
         <div className="max-w-2xl space-y-4">
           <p className="text-sm uppercase tracking-[0.28em] text-mist/65">{copy.eyebrow}</p>
-          <p className="mt-3 text-lg leading-8 text-mist">{copy.description}</p>
+          {copy.description ? (
+            <p className="mt-3 text-lg leading-8 text-mist">{copy.description}</p>
+          ) : null}
           {contact ? (
             <div className="grid gap-3 text-sm text-mist sm:grid-cols-3">
               <a

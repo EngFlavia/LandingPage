@@ -11,6 +11,7 @@ export const uiTranslations: Record<Language, UiCopy> = {
         { id: 'experiencia', label: 'Experiência' },
         { id: 'formacao', label: 'Formação' },
         { id: 'skills', label: 'Skills' },
+        { id: 'projetos', label: 'Projetos' },
         { id: 'destaques', label: 'Diferenciais' },
         { id: 'idiomas', label: 'Idiomas' },
         { id: 'interesses', label: 'Interesses' },
@@ -18,14 +19,14 @@ export const uiTranslations: Record<Language, UiCopy> = {
       ],
     },
     hero: {
-      availability: 'Disponível para oportunidades remotas',
+      //availability: 'Disponível para oportunidades remotas',
       portfolioLabel: 'Portfólio profissional',
       primaryCta: 'Entrar em contato',
       secondaryCta: 'Ver experiência',
       spotlightTitle: 'Perfil em foco',
       spotlightBadge: 'Fullstack',
       spotlightCards: [
-        { label: 'Base sólida', text: '.NET, Angular e SQL Server' },
+        { label: 'Base sólida', text: '.NET, ASP.NET MVC, Angular, JavaScript e SQL Server' },
         { label: 'Operação real', text: 'Deploys, QA, produção e incidentes' },
         { label: 'Evolução técnica', text: 'Arquitetura, segurança e mentoria' },
       ],
@@ -36,9 +37,9 @@ export const uiTranslations: Record<Language, UiCopy> = {
     },
     experience: {
       eyebrow: 'Trajetória',
-      title: 'Experiência construída em sistemas reais, com responsabilidade crescente.',
-      description:
-        'A evolução profissional foi traduzida em formatos visuais distintos para evidenciar senioridade, contexto e progressão de carreira.',
+      // title: 'Experiência construída em sistemas reais, com responsabilidade crescente.',
+      // description:
+      //   'A evolução profissional foi traduzida em formatos visuais distintos para evidenciar senioridade, contexto e progressão de carreira.',
       featuredLabel: 'Experiência em destaque',
       timelineLabel: 'Linha do tempo',
       milestoneLabel: 'Marco',
@@ -47,18 +48,18 @@ export const uiTranslations: Record<Language, UiCopy> = {
     },
     education: {
       eyebrow: 'Formação',
-      title: 'Base acadêmica plural, com transição estratégica para tecnologia.',
-      description:
-        'A formação combina profundidade analítica, visão de engenharia e especialização em desenvolvimento de sistemas.',
-      featuredLabel: 'Formação principal',
+      // title: 'Base acadêmica plural, com transição estratégica para tecnologia.',
+      // description:
+      //   'A formação combina profundidade analítica, visão de engenharia e especialização em desenvolvimento de sistemas.',
+       featuredLabel: 'Formação Recente',
       supportingLabel: 'Base complementar',
     },
     skills: {
       eyebrow: 'Competências',
-      title: 'Capacidades técnicas organizadas por contexto de atuação.',
-      description:
-        'Cada grupo foi tratado com uma linguagem visual própria para destacar natureza, profundidade e aplicação prática.',
-      badge: 'Stack guiada por JSON',
+      // title: 'Capacidades técnicas organizadas por contexto de atuação.',
+      // description:
+      //   'Cada grupo foi tratado com uma linguagem visual própria para destacar natureza, profundidade e aplicação prática.',
+      // badge: 'Stack guiada por JSON',
       groups: {
         backend: { title: 'Backend', description: 'Fundação principal da atuação técnica.' },
         frontend: {
@@ -76,34 +77,41 @@ export const uiTranslations: Record<Language, UiCopy> = {
         },
       },
     },
+    projects: {
+      eyebrow: 'Projetos',
+      // title: 'Projetos no GitHub que mostram prática, repertório e evolução.',
+      // description:
+      //   'Uma seleção de repositórios pessoais e acadêmicos, reunindo jogos, aplicações, automação de cálculos e a própria landing page do portfólio.',
+      repositoryLabel: 'Abrir repositório',
+    },
     highlights: {
       eyebrow: 'Diferenciais',
-      title: 'Sinais concretos de maturidade técnica e confiança operacional.',
-      description:
-        'Os destaques foram organizados com leves variações de composição para evitar repetição visual e manter leitura dinâmica.',
+      // title: 'Sinais concretos de maturidade técnica e confiança operacional.',
+      // description:
+      //   'Os destaques foram organizados com leves variações de composição para evitar repetição visual e manter leitura dinâmica.',
       ribbonLabel: 'Destaque',
     },
     languages: {
       eyebrow: 'Idiomas',
-      title: 'Comunicação preparada para contexto local e colaboração internacional.',
-      description:
-        'Os idiomas reforçam adaptabilidade em times distribuídos, leitura técnica e interação com produtos globais.',
+      // title: 'Comunicação preparada para contexto local e colaboração internacional.',
+      // description:
+      //   'Os idiomas reforçam adaptabilidade em times distribuídos, leitura técnica e interação com produtos globais.',
       fluencyLabel: 'Proficiência',
     },
     interests: {
       eyebrow: 'Interesses',
-      title: 'Áreas de interesse que reforçam direção de carreira e aderência cultural.',
-      description:
-        'A seção finaliza a narrativa com um tom mais leve, mantendo a estética profissional e diferenciando-se visualmente das skills.',
+      // title: 'Áreas de interesse que reforçam direção de carreira e aderência cultural.',
+      // description:
+      //   'A seção finaliza a narrativa com um tom mais leve, mantendo a estética profissional e diferenciando-se visualmente das skills.',
     },
     contact: {
       eyebrow: 'Contato',
-      title: 'Aberta para conversar sobre oportunidades backend e fullstack remotas.',
-      description:
-        'Se a vaga pede alguém com profundidade técnica, senso de operação e boa comunicação com o time, esta landing já resume bem a proposta de valor. O próximo passo pode ser uma conversa.',
+      // title: 'Aberta para conversar sobre oportunidades backend e fullstack remotas.',
+      // description:
+      //   'Se a vaga pede alguém com profundidade técnica, senso de operação e boa comunicação com o time, esta landing já resume bem a proposta de valor. O próximo passo pode ser uma conversa.',
       primaryCta: 'Baixar currículo',
       secondaryCta: 'Voltar ao topo',
-      availabilityBadge: 'Resposta rápida',
+      // availabilityBadge: 'Resposta rápida',
       emailLabel: 'Email',
       phoneLabel: 'Telefone',
       linkedinLabel: 'LinkedIn',
@@ -124,6 +132,7 @@ export const uiTranslations: Record<Language, UiCopy> = {
         { id: 'experiencia', label: 'Experience' },
         { id: 'formacao', label: 'Education' },
         { id: 'skills', label: 'Skills' },
+        { id: 'projetos', label: 'Projects' },
         { id: 'destaques', label: 'Highlights' },
         { id: 'idiomas', label: 'Languages' },
         { id: 'interesses', label: 'Interests' },
@@ -149,9 +158,9 @@ export const uiTranslations: Record<Language, UiCopy> = {
     },
     experience: {
       eyebrow: 'Journey',
-      title: 'Experience built in real systems with increasing responsibility.',
-      description:
-        'The professional journey is presented through distinct visual formats to highlight seniority, context, and career progression.',
+      // title: 'Experience built in real systems with increasing responsibility.',
+      // description:
+      //   'The professional journey is presented through distinct visual formats to highlight seniority, context, and career progression.',
       featuredLabel: 'Featured experience',
       timelineLabel: 'Timeline',
       milestoneLabel: 'Milestone',
@@ -160,18 +169,18 @@ export const uiTranslations: Record<Language, UiCopy> = {
     },
     education: {
       eyebrow: 'Education',
-      title: 'A diverse academic foundation with a strategic move into technology.',
-      description:
-        'The academic path blends analytical depth, engineering thinking, and a focused transition into software development.',
+      // title: 'A diverse academic foundation with a strategic move into technology.',
+      // description:
+      //   'The academic path blends analytical depth, engineering thinking, and a focused transition into software development.',
       featuredLabel: 'Primary degree',
       supportingLabel: 'Supporting background',
     },
     skills: {
       eyebrow: 'Capabilities',
-      title: 'Technical strengths organized by context of execution.',
-      description:
-        'Each group uses a distinct visual language to emphasize purpose, depth, and practical application.',
-      badge: 'JSON-driven stack',
+      // title: 'Technical strengths organized by context of execution.',
+      // description:
+      //   'Each group uses a distinct visual language to emphasize purpose, depth, and practical application.',
+      // badge: 'JSON-driven stack',
       groups: {
         backend: { title: 'Backend', description: 'Primary technical foundation.' },
         frontend: {
@@ -188,6 +197,13 @@ export const uiTranslations: Record<Language, UiCopy> = {
           badge: 'Operations',
         },
       },
+    },
+    projects: {
+      eyebrow: 'Projects',
+      title: 'GitHub projects that show practice, range, and technical growth.',
+      description:
+        'A selection of personal and academic repositories covering games, applications, calculation automation, and this portfolio landing page.',
+      repositoryLabel: 'Open repository',
     },
     highlights: {
       eyebrow: 'Highlights',
@@ -211,12 +227,12 @@ export const uiTranslations: Record<Language, UiCopy> = {
     },
     contact: {
       eyebrow: 'Contact',
-      title: 'Open to discussing remote backend and fullstack opportunities.',
-      description:
-        'If the role calls for someone with technical depth, operational awareness, and strong communication, this landing already captures the value proposition. The next step can be a conversation.',
+      // title: 'Open to discussing remote backend and fullstack opportunities.',
+      // description:
+      //   'If the role calls for someone with technical depth, operational awareness, and strong communication, this landing already captures the value proposition. The next step can be a conversation.',
       primaryCta: 'Download resume',
       secondaryCta: 'Back to top',
-      availabilityBadge: 'Quick reply',
+      // availabilityBadge: 'Quick reply',
       emailLabel: 'Email',
       phoneLabel: 'Phone',
       linkedinLabel: 'LinkedIn',
@@ -297,18 +313,6 @@ export function getLocalizedPortfolio(
       },
       {
         ...portfolio.experience[1],
-        role: 'Junior Developer',
-        period: '06/2021 - 12/2024',
-        responsibilities: [
-          'Development and maintenance of applications in .NET MVC',
-          'Integration with SQL Server databases',
-          'Performance improvements in existing systems',
-          'Interface development with JavaScript, HTML5, and CSS',
-          'Bug fixing and application support',
-        ],
-      },
-      {
-        ...portfolio.experience[2],
         role: 'Software Development Intern',
         period: '08/2020 - 06/2021',
         responsibilities: [
@@ -324,6 +328,38 @@ export function getLocalizedPortfolio(
       database: ['SQL Server'],
       cloud_devops: ['Azure', 'IIS', 'Git', 'QA and Production Deployments'],
     },
+    projects: [
+      {
+        ...portfolio.projects[0],
+        description:
+          'Professional portfolio landing page built with React, Vite, Tailwind CSS, and JSON-structured content.',
+        tags: ['React', 'Vite', 'Tailwind'],
+      },
+      {
+        ...portfolio.projects[1],
+        description:
+          'Application focused on smart recipes, exploring culinary information organization and data-oriented user experience.',
+        tags: ['Application', 'Recipes', 'AI'],
+      },
+      {
+        ...portfolio.projects[2],
+        description:
+          'Bingo game project focused on draw logic, multi-device user interaction, and match rule organization.',
+        tags: ['Game', 'Logic', 'AI'],
+      },
+      {
+        ...portfolio.projects[3],
+        description:
+          'Academic game project developed in the FACENS context, combining programming practice, interface work, and gameplay rules.',
+        tags: ['Academic', 'Game', 'FACENS'],
+      },
+      {
+        ...portfolio.projects[4],
+        description:
+          'Material calculation project connecting a civil engineering background with automation and software development.',
+        tags: ['Calculation', 'Engineering', 'Software'],
+      },
+    ],
     highlights: [
       'Hands-on scope aligned with senior-level responsibilities',
       'Experience with deployments and support for production environments',

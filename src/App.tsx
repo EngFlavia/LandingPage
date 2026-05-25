@@ -10,6 +10,7 @@ import { InterestsSection } from './components/interests/InterestsSection';
 import { Header } from './components/layout/Header';
 import { SectionDivider } from './components/layout/SectionDivider';
 import { LanguagesSection } from './components/languages/LanguagesSection';
+import { ProjectsSection } from './components/projects/ProjectsSection';
 import { useLanguage } from './hooks/useLanguage';
 import { usePortfolioMeta } from './hooks/usePortfolioMeta';
 import { getLocalizedPortfolio, resumeLinks, uiTranslations } from './i18n/translations';
@@ -51,6 +52,7 @@ function App() {
         <ExperienceSection experiences={portfolio.experience} copy={ui.experience} />
         <EducationSection education={portfolio.education ?? []} copy={ui.education} />
         <SkillsSection skills={portfolio.skills} copy={ui.skills} />
+        <ProjectsSection projects={portfolio.projects} copy={ui.projects} />
         <HighlightsSection highlights={portfolio.highlights} copy={ui.highlights} />
         <LanguagesSection languages={portfolio.languages ?? []} copy={ui.languages} />
         <InterestsSection interests={portfolio.interests} copy={ui.interests} />

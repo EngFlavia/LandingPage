@@ -26,6 +26,13 @@ export interface SkillGroups {
   cloud_devops: string[];
 }
 
+export interface ProjectItem {
+  name: string;
+  url: string;
+  description: string;
+  tags: string[];
+}
+
 export interface PortfolioContent {
   name: string;
   title: string;
@@ -40,13 +47,14 @@ export interface PortfolioContent {
   education?: EducationItem[];
   languages?: LanguageItem[];
   experience: ExperienceItem[];
+  projects: ProjectItem[];
   skills: SkillGroups;
   highlights: string[];
   interests: string[];
 }
 
 export interface HeroCopy {
-  availability: string;
+  availability?: string;
   portfolioLabel: string;
   primaryCta: string;
   secondaryCta: string;
@@ -73,10 +81,13 @@ export interface SummaryCopy {
   title: string;
 }
 
-export interface ExperienceCopy {
+interface SectionCopy {
   eyebrow: string;
-  title: string;
-  description: string;
+  title?: string;
+  description?: string;
+}
+
+export interface ExperienceCopy extends SectionCopy {
   featuredLabel: string;
   timelineLabel: string;
   milestoneLabel: string;
@@ -84,26 +95,17 @@ export interface ExperienceCopy {
   companyLabel: string;
 }
 
-export interface EducationCopy {
-  eyebrow: string;
-  title: string;
-  description: string;
+export interface EducationCopy extends SectionCopy {
   featuredLabel: string;
   supportingLabel: string;
 }
 
-export interface LanguagesCopy {
-  eyebrow: string;
-  title: string;
-  description: string;
+export interface LanguagesCopy extends SectionCopy {
   fluencyLabel: string;
 }
 
-export interface SkillsCopy {
-  eyebrow: string;
-  title: string;
-  description: string;
-  badge: string;
+export interface SkillsCopy extends SectionCopy {
+  badge?: string;
   groups: {
     backend: { title: string; description: string };
     frontend: { title: string; description: string };
@@ -112,26 +114,23 @@ export interface SkillsCopy {
   };
 }
 
-export interface HighlightsCopy {
-  eyebrow: string;
-  title: string;
-  description: string;
+export interface ProjectsCopy extends SectionCopy {
+  repositoryLabel: string;
+}
+
+export interface HighlightsCopy extends SectionCopy {
   ribbonLabel: string;
 }
 
-export interface InterestsCopy {
-  eyebrow: string;
-  title: string;
-  description: string;
-}
+export interface InterestsCopy extends SectionCopy {}
 
 export interface ContactCopy {
   eyebrow: string;
-  title: string;
-  description: string;
+  title?: string;
+  description?: string;
   primaryCta: string;
   secondaryCta: string;
-  availabilityBadge: string;
+  availabilityBadge?: string;
   emailLabel: string;
   phoneLabel: string;
   linkedinLabel: string;
@@ -149,6 +148,7 @@ export interface UiCopy {
   experience: ExperienceCopy;
   education: EducationCopy;
   skills: SkillsCopy;
+  projects: ProjectsCopy;
   highlights: HighlightsCopy;
   languages: LanguagesCopy;
   interests: InterestsCopy;

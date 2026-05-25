@@ -18,11 +18,11 @@ export function SkillsSection({ skills, copy }: SkillsSectionProps) {
       eyebrow={copy.eyebrow}
       title={copy.title}
       description={copy.description}
-      aside={
+      aside={copy.badge ? (
         <div className="rounded-full border border-slate-300 px-4 py-2 text-sm text-slate-600">
           {copy.badge}
         </div>
-      }
+      ) : null}
       className="text-ink"
     >
       <div className="grid gap-6 lg:grid-cols-12">
