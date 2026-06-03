@@ -134,6 +134,12 @@
       "url": "https://github.com/EngFlavia/ProjetoCalculoDeMateriais",
       "description": "Projeto para cálculo de materiais, conectando a base de engenharia civil com automação e desenvolvimento de software.",
       "tags": ["Cálculo", "Engenharia", "Software"]
+    },
+    {
+      "name": "Projeto AWS",
+      "url": "https://github.com/EngFlavia/Projeto-AWS",
+      "description": "Projeto de estudo em AWS, reunindo prática com serviços de nuvem, arquitetura e fundamentos de infraestrutura cloud.",
+      "tags": ["AWS", "Cloud", "Infraestrutura"]
     }
   ],
 

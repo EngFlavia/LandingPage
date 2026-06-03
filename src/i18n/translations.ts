@@ -359,6 +359,12 @@ export function getLocalizedPortfolio(
           'Material calculation project connecting a civil engineering background with automation and software development.',
         tags: ['Calculation', 'Engineering', 'Software'],
       },
+      {
+        ...portfolio.projects[5],
+        description:
+          'AWS study project bringing together cloud services practice, architecture, and infrastructure fundamentals.',
+        tags: ['AWS', 'Cloud', 'Infrastructure'],
+      },
     ],
     highlights: [
       'Hands-on scope aligned with senior-level responsibilities',
